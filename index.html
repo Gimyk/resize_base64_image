@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image resize</title>
+    <style>
+        #old{
+            max-width: 90%;
+            height: auto;
+            border: solid thick red;
+        }
+        #new{
+            border: solid thick red;
+        }
+    </style>
+</head>
+<body>
+    <input id="file" accept=".jpg, .png, .jpeg" type="file" onchange="preview_image()">
+    <br>
+    <img src="" id="new">
+    <br>
+    <img src="" id="old">
+    <script src="main.js"></script>
+</body>
+</html>
+
+ <!-- credit to: https://gist.github.com/ORESoftware/ba5d03f3e1826dc15d5ad2bcec37f7bf -->
